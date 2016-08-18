@@ -1,0 +1,72 @@
+.form-actions {
+    padding: 0px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-top: 0px solid #e5e5e5;
+    *zoom: 1;
+}
+.form-horizontal .form-actions {
+    padding-left: 50px;
+}
+
+.select2-container .select2-choice span {
+    display: block;
+    margin-right: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form-horizontal .controls {
+    margin-left: 50px!important;
+    padding: 10px 0;
+
+}
+.form-horizontal .control-label {
+    padding-top: 15px;
+    width: 60px!important;
+}
+.publishTable td{
+    width:10%;}
+.publishTable .tdTime{
+    width:30%;}
+.publishTable .tdSearch{width: 15%;}
+#breadcrumb{position:relative}
+.tdSearch .searchBox{
+    padding:10px 0 10px 0;
+    text-align: center;}
+/*服务方*/
+.form-horizontal .form-actions {
+    margin-bottom: 0;
+    margin-right: 100px;
+}
+.form-horizontal .selectBox {
+    margin-left: 50px!important;
+    padding: 10px 0;
+
+}
+.form-horizontal .checkState {
+    padding-top: 15px;
+    width: 80px!important;
+}
+.servicerTable td{
+    width:20%;}
+.tdSearch .searchBox{
+    padding:10px 0 10px 0;
+    text-align: center;margin-right:0;}
+.w1{width:4%;}
+.w2{width:10%;}
+.w3{width:8%;}
+.w4{width:6%;}
+.w5{width:12%;}
+.w6{width:10%}
+.w7{width:30%}
+.w8{width:10%;}
+.w9{width:5%}
+.w10{width:5%;}
+.servicerInfoTable tr td{vertical-align: middle;}
+.servicerInfoTable tr td p{margin: 0;}
+.servicerInfoTable .tdCompanyIntro div{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;height:60px;overflow: hidden;text-overflow:ellipsis;}
+/*审核*/
+.form-horizontal .checkSearch {margin-right: 100px;}
+.checkTable tr td{text-align:center;vertical-align: middle;}
