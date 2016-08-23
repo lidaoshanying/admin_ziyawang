@@ -156,7 +156,6 @@ class PushController extends Controller{
                            foreach($dbs as $db){
                                $usersId=$db->userid;
                            }
-
                        }else{
                            return back()->with("msgReceive","您填写的手机号不正确,请您重新填写!");
                        }
@@ -183,6 +182,7 @@ class PushController extends Controller{
                 "SendID"=>0,
                 "RecID"=>$usersId,
                 "TextID"=>$textId,
+                "created_at"=>date("Y-m-d H:i:s", time())
             ]);
            /* $sysMsg=DB::table("T_M_SYSMESSAGE")->insert([
                 "CustomerId"=>$mesId,

@@ -125,7 +125,7 @@ Route::get("push/clear",'Admin\PushController@clear');
     //运维管理中的轮播图处理
 Route::get("operate/index",'Admin\OperateController@index');
 Route::any("operate/upload",'Admin\OperateController@upload');
-    Route::post("operate/save",'Admin\OperateController@save');
+Route::post("operate/save",'Admin\OperateController@save');
 
 
 });

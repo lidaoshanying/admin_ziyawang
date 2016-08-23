@@ -34,7 +34,7 @@
                         <option value="03" @if(!empty($typeName) && $typeName=="03") selected="selected" @endif>律师事务所</option>
                         <option value="04" @if(!empty($typeName) && $typeName=="04") selected="selected" @endif>保理公司</option>
                         <option value="05" @if(!empty($typeName) && $typeName=="05") selected="selected" @endif>典当担保</option>
-                        <option value="06" @if(!empty($typeName) && $typeName=="06") selected="selected" @endif>投资贷款</option>
+                        <option value="06" @if(!empty($typeName) && $typeName=="06") selected="selected" @endif>投融资服务</option>
                         <option value="10" @if(!empty($typeName) && $typeName=="10") selected="selected" @endif>尽职调查</option>
                         <option value="12" @if(!empty($typeName) && $typeName=="12") selected="selected" @endif>资产收购</option>
                         <option value="13" @if(!empty($typeName) && $typeName=="13") selected="selected" @endif>资金过桥</option>

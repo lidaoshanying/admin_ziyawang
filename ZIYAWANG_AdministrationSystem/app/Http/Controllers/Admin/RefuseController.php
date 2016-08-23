@@ -151,6 +151,7 @@ class RefuseController extends Controller
                 $cooperateFlag=0;
             DB::table("T_P_PROJECTINFO")->where("ProjectID",$pId)->update([
                  "PublishState"=>0,
+                "ServiceID"=>0,
                  'updated_at'=>date("Y-m-d H:i:s", time()),
             ]);
         }else{

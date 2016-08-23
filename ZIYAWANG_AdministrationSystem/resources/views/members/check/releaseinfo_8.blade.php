@@ -11,6 +11,12 @@
         <a href="{{asset('check/index')}}" title="审核列表" class="tip-bottom"><i class="icon-home"></i>审核</a>
         <a href="#" class="current">审核详情</a>
     </div>
+    @if(session("msg"))
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>{{session("msg")}}</strong>
+        </div>
+    @endif
     <div class="row-fluid">
         <div class="span12">
             <div class="widget-box">

@@ -152,12 +152,12 @@ class VideoController extends Controller
     public function update($id){
         $datas=DB::table("T_V_VIDEOINFO")->where('VideoID',$id)->first();
         $results=DB::table("T_CONFIG_ITEMTYPE")->select("TypeID")->where("ModuleID",$id)->get();
-       
         foreach ($results as $result){
             $count[]=$result->TypeID;
         }
         $types=DB::table("T_CONFIG_TYPE")->where("module",2)->get();
-
+        var_dump($types);var_dump($count);
+        die;
         return view("news/video/update",compact('datas',"count","types"));
     }
     //删除视频信息
